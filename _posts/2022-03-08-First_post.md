@@ -1,5 +1,5 @@
 ---
-layout: postHeb
+layout: post
 title: הפוסט הראשון שלי
 subtitle: נסיון בעברית
 gh-repo: itay-ye
