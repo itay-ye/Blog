@@ -10,3 +10,10 @@ lang: heb
 ---
 שלום ברוכים הבאים
 זה פוסט בעברית
+```javascript
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+```
+מגניבי וי
