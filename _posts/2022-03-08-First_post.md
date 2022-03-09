@@ -20,6 +20,6 @@ lang: heb
 במילים פשוטות יותר:
 
 {: .box-note}
-**Note:**  Docker זה כלי לניהול פשוט ויעיל של Containers.
+Docker זה כלי לניהול פשוט ויעיל של Containers.
 .
 
