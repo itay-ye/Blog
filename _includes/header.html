@@ -25,10 +25,10 @@
 <div class="big-img intro-header">
   <div class="container-md">
     <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <div class="col-xl-8 offset-xl-2 col-lg-10">
         <div class="{{ include.type }}-heading">
           {% if page.lang == "heb" %}
-            <h1 dir="rtl" style="text-align: initial">{% if page.title %}{{ page.title | strip_html }}{% else %}<br/>{% endif %}</h1>
+            <h1 dir="rtl" style="text-align: center">{% if page.title %}{{ page.title | strip_html }}{% else %}<br/>{% endif %}</h1>
           {% else %}
             <h1>{% if page.title %}{{ page.title | strip_html }}{% else %}<br/>{% endif %}</h1>
           {% endif %}
