@@ -1,30 +1,25 @@
 ---
 layout: post
-title: הפוסט הראשון שלי
-subtitle: נסיון בעברית
-gh-repo: itay-ye
-gh-badge: [star, fork, follow]
-tags: [test]
+title: Docker למתחילים
+subtitle: מה זה בעצם Docker
+tags: [Docker]
 comments: true
 lang: heb
 ---
-שלום ברוכים הבאים
-זה פוסט בעברית
-<div dir="ltr" markdown="1">
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-</div>
+## למה ללמוד בכלל מה זה Docker?
+כולם משתמשים בדוקר, ואם לא בדוקר עצמו אז בכלים זהים שנותנים את אותה תוצאה סופית (לשכתב)
 
-~~~javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
+## מה זה Docker?
 
+> Docker הוא פרויקט קוד פתוח של תוכנה המספקת שכבת הפשטה ואוטומציה להתקנת והרצת יישומים בתוך קונטיינרים (מכולות) המנוהלים על ידי וירטואליזציה ברמת מערכת ההפעלה על גבי Windows,‏ macOS ו-Linux.
 
-מגניבי וי
+נלקח מ[ויקיפדיה](https://he.wikipedia.org/wiki/Docker).
+
+אישית ההגדרה למעלה לא הייתה ברורה לי בשום צורה, וכדי להבין מה בדיוק הסיפור עם Docker אני אצטרך להעמיק קצת יותר.
+
+במילים פשוטות יותר:
+
+{: .box-note}
+**Note:**  Docker זה כלי לניהול פשוט ויעיל של Containers.
+.
+

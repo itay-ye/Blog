@@ -1100,3 +1100,7 @@ pre {
     display: inline-block;
   }
 }
+
+.post-heading {
+  text-align: center;
+}
