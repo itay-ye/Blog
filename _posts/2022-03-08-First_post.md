@@ -5,6 +5,7 @@ subtitle: Docker מה זה בעצם
 tags: [Docker]
 comments: true
 lang: heb
+cover-img: /assets/img/Containers.jpg
 ---
 ## למה ללמוד בכלל מה זה Docker?
 כולם משתמשים בדוקר, ואם לא בדוקר עצמו אז בכלים זהים שנותנים את אותה תוצאה סופית (לשכתב)
