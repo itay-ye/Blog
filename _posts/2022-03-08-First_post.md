@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Docker למתחילים
-subtitle: מה זה בעצם Docker
+title: למתחילים Docker
+subtitle: Docker מה זה בעצם 
 tags: [Docker]
 comments: true
 lang: heb
