@@ -3,7 +3,7 @@ layout: null
 ---
 
 @import url("pygment_highlights.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* --- General --- */
 
 html {
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', 'Lora', sans-serif;
   font-size: 1.125rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
@@ -924,8 +924,10 @@ pre {
 }
 
 /* --- Notification boxes --- */
+.box-note-heb,
 .box-note,
 .box-warning,
+.box-warning-heb,
 .box-error,
 .box-success {
   padding: 0.9375rem 0.9375rem 0.9375rem 0.625rem;
@@ -939,10 +941,19 @@ pre {
   background-color: #eee;
   border-left-color: #2980b9;
 }
-
+.box-note-heb {
+  border-right-color: #2980b9;
+  border-right-width: 0.3125rem;
+  border-left-width: unset;
+}
 .box-warning {
   background-color: #fdf5d4;
   border-left-color: #f1c40f;
+}
+.box-warning-heb{
+  border-right-color: #f1c40f;
+  border-right-width: 0.3125rem;
+  border-left-width: unset;
 }
 
 .box-error {
